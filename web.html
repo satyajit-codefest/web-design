@@ -1,0 +1,253 @@
+<html>
+ 
+<head>
+    <title>
+        web designed
+    </title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+ 
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+    }
+ 
+    .background {
+        background-color:black ;
+        background-blend-mode: darken;
+        background-size:contain;
+    }
+ 
+    .nav-list {
+        width: 70%;
+        display: flex;
+        align-items: center;
+    }
+ 
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .logo img {
+        width: 180px;
+        border-radius: 50px;
+    }
+ 
+    .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+    }
+ 
+    .nav-list li a {
+        text-decoration: none;
+        color:white;
+    }
+ 
+    .nav-list li a:hover {
+        color: grey;
+    }
+ 
+    .rightnav {
+        width: 30%;
+        text-align: right;
+    }
+ 
+    #search {
+        padding: 5px;
+        font-size: 17px;
+        border: 2px solid grey;
+        border-radius: 9px;
+    }
+ 
+    .firstsection {
+        background-color:lightpink;
+        border-radius: 9px;
+    }
+ 
+    .secondsection {
+        background-color:aquamarine;
+        border-radius: 9px;
+    }
+ 
+    .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        max-width: 80%;
+        margin: auto;
+        height: 80%;
+    }
+ 
+    .firsthalf {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+ 
+    .secondhalf {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .secondhalf img {
+        width: 70%;
+        border: 4px solid white;
+        border-radius: 150px;
+        display: block;
+        margin: auto;
+    }
+ 
+    .text-big {
+        font-family: 'Piazzolla', serif;
+        font-weight: bold;
+        font-size: 35px;
+    }
+ 
+    .text-small {
+        font-size: 18px;
+    }
+ 
+    .btn {
+        padding: 8px 20px;
+        margin: 7px 0;
+        border: 2px solid white;
+        border-radius: 8px;
+        background: none;
+        color: red;
+        cursor: pointer;
+    }
+ 
+    .btn-sm {
+        padding: 6px 10px;
+        vertical-align: middle;
+    }
+ 
+    .section {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: lightcoral;
+        margin: auto;
+    }
+ 
+    .section-Left {
+        flex-direction: row-reverse;
+    }
+ 
+    .paras {
+        padding: 0px 65px;
+    }
+ 
+    .thumbnail img {
+        width: 250px;
+        border: 2px solid black;
+        border-radius: 26px;
+        margin-top: 19px;
+    }
+ 
+    .center {
+        text-align: center;
+    }
+ 
+    
+</style>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <li><a href="#statu">statue of unity</a></li>
+            <li><a href="#hiking">hiking</a></li>
+            <li><a href="#wallet">the wallet bank</a></li>
+        </ul>
+ 
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+ 
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="statu">
+                    Statue Of Unity
+                </h1>
+                 
+                <p class="text-small">
+                    The 182-metre (600 feet aprox.) statue is
+                     dedicated to Sardar Vallabhbhai Patel, 
+                     the architect of independent India.
+                      The colossal monument towers over River
+                       Narmada, a tribute to India 'from the 
+                       people of Gujarat' to the leader who 
+                       placed people's welfare first.A society named Sardar Vallabhbhai Patel Rashtriya Ekta Trust (SVPRET) was formed under the chairmanship of the Chief Minister of Gujarat, to execute the project.[7][8]
+                     Statue of Unity Movement was started in 2013 to collect the iron needed for the
+                        statue by asking farmers to donate their used farming instruments.[7][9] By 2016, 
+                        a total of 135 metric tonnes of scrap iron had been collected and about 109 tonnes of it
+                         was used to make the foundation of the statue after processing.[10] A marathon titled Run
+                          For Unity was held on 15 December 2013 in Surat and Vadodara in support of the project.
+
+    
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="secondHalf">
+                <h1 class="text-big" id="hiking">
+                        Hiking
+                </h1>
+                <p class="text-small">
+                    Hiking is a long, vigorous walk, usually on trails or
+                     footpaths in the countryside. Walking for pleasure 
+                     developed in Europe during the eighteenth century.
+                      Religious pilgrimages have existed much longer but
+                       they involve walking long distances for a spiritual purpose
+                        associated with specific religions.In the United States, Canada, the Republic of Ireland, and the United Kingdom, hiking means walking outdoors on a trail, or off trail, for recreational purposes.[6] A day hike refers to a hike that can be completed in a single day. However, in the United Kingdom, the word walking is also used, as well as rambling, while walking in mountainous areas is called hillwalking. In Northern England, Including the Lake District and Yorkshire Dales, fell walking describes hill or mountain walks, as fell is the common word for both features there.
+                </p>
+ 
+ 
+            </div>
+        </div>
+    </section>
+ 
+    <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big">The wallet Bank </h1>
+ 
+            <p class="sectionSubTag text-small">
+                A mobile wallet is a way to carry cash in digital format. 
+                You can link your credit card or debit card information in 
+                mobile device to mobile wallet application or you can transfer 
+                money online to mobile wallet.Ditching your real wallet (which, let’s be honest, contains mostly loose change and old receipts anyway) for a digital wallet is easier than you think. With a payment app, all your Summit credit and debit cards can be stored in your digital wallet right on your phone, ready to use online or at a store wherever you see the pay wave icon. Mobile payments work just like regular transactions. All you have to do is wave or tap your phone, and you’re done. Easy.
+                
+            </p>
+ 
+ 
+        </div>
+        
+    
+    </section>
+</body>
+ 
+</html>
